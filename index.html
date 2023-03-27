@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Trivia Game</h1>
+      <p id="question"></p>
+      <div id="choices">
+        <input type="radio" id="choice1" name="choice" value="0">
+        <label for="choice1" id="choice1-label"></label>
+        <br>
+        <input type="radio" id="choice2" name="choice" value="1">
+        <label for="choice2" id="choice2-label"></label>
+        <br>
+        <input type="radio" id="choice3" name="choice" value="2">
+        <label for="choice3" id="choice3-label"></label>
+      </div>
+      <button id="submit-btn">Submit</button>
+      <p id="timer">Time Remaining: <span id="seconds">50</span></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
